@@ -2,6 +2,11 @@
 
 if(isset($_GET['FirstName'])){//show data
   echo $_GET['FirstName'] . ' ' . $_GET['LastName'];
+
+echo '<pre>';
+var_dump($_get);
+echo '</pre>'
+
 }else{//show form
   echo '
   <form action="">
